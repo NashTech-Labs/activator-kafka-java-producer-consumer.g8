@@ -16,7 +16,6 @@ target/*
 *.iws
 .classpath
 .project
-.scala_dependencies
 .target/
 .cache
 logs/*
