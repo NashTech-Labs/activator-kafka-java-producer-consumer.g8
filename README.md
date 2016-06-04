@@ -2,7 +2,7 @@
 
 This activator project proves insights about how to read &amp; write data from kafka queue.
 
-##Steps to Install and Run zookeeper and kafka on your system : 
+####Steps to Install and Run zookeeper and kafka on your system : 
 
 Step 1: Download kafka from [here](http://mirror.fibergrid.in/apache/kafka/0.10.0.0/kafka_2.11-0.10.0.0.tgz)
 
@@ -21,12 +21,23 @@ Start  Kafka server:
 
     $ bin/kafka-server-start.sh config/server.properties
 
+#### Clone Project:
+   
+    
+    $ git clone git@github.com:knoldus/activator-kafka-java-producer-consumer.git
+    
+    $ cd activator-kafka-java-producer-consumer
+    
+    $ ./activator clean compile
 
-##Steps to start producer service :
+
+
+####Steps to start producer service :
 
     $ ./activator "run-main com.knoldus.demo.ProducerApp"
   
-##Steps to start consumer service :
+####Steps to start consumer service :
 
     $  ./activator "run-main com.knoldus.demo.ConsumerApp"
+
   
